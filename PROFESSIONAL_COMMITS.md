@@ -638,3 +638,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Este archivo controla la configuración/propósito de package.json en el proyecto. Descripción breve en español.
 - Impacto: Afecta al build/linters/ejecución según corresponda.
 
+
+### Archivo: postcss.config.js
+
+- Funcionalidad: Este archivo controla la configuración/propósito de postcss.config.js en el proyecto. Descripción breve en español.
+- Impacto: Afecta al build/linters/ejecución según corresponda.
+

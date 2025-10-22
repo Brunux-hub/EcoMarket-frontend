@@ -596,3 +596,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Este archivo controla la configuración/propósito de .gitignore en el proyecto. Descripción breve en español.
 - Impacto: Afecta al build/linters/ejecución según corresponda.
 
+
+### Archivo: README.md
+
+- Funcionalidad: Este archivo controla la configuración/propósito de README.md en el proyecto. Descripción breve en español.
+- Impacto: Afecta al build/linters/ejecución según corresponda.
+

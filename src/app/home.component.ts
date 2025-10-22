@@ -1,3 +1,4 @@
+// Funcional: src/app/home.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from './shared/ui/product-card/product-card.component';
@@ -87,3 +88,4 @@ export class HomeComponent {
     this.filtered = this.products.filter(p => p.name.toLowerCase().includes(term.toLowerCase()));
   }
 }
+

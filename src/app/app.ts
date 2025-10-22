@@ -1,3 +1,4 @@
+// Funcional: src/app/app.ts — descripción breve de la responsabilidad principal del archivo.
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MenuComponent } from './shared/components/menu/menu.component';
@@ -13,3 +14,4 @@ import { FooterComponent } from './shared/ui/footer/footer.component';
 export class App {
   protected readonly title = signal('frontend');
 }
+

@@ -1,3 +1,4 @@
+// Funcional: src/app/interceptors/auth.interceptor.ts — descripción breve de la responsabilidad principal del archivo.
 import { HttpInterceptorFn } from '@angular/common/http';
 
 export const authInterceptor: HttpInterceptorFn = (req, next) => {
@@ -11,3 +12,4 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
   }
   return next(req);
 };
+

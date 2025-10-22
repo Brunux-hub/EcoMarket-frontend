@@ -1,3 +1,4 @@
+// Funcional: src/app/shared/ui/filter-sidebar/filter-sidebar.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
@@ -42,3 +43,4 @@ export class FilterSidebarComponent {
     this.apply.emit(this.state);
   }
 }
+

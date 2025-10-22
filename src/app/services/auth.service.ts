@@ -1,3 +1,4 @@
+// Funcional: src/app/services/auth.service.ts — descripción breve de la responsabilidad principal del archivo.
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
@@ -45,3 +46,4 @@ export class AuthService {
     }
   }
 }
+

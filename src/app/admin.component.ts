@@ -1,3 +1,4 @@
+// Funcional: src/app/admin.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,3 +7,4 @@ import { Component } from '@angular/core';
   template: `<h2>Zona ADMIN</h2>`,
 })
 export class AdminComponent {}
+

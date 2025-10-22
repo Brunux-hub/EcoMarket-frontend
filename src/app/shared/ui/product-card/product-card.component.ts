@@ -1,3 +1,4 @@
+// Funcional: src/app/shared/ui/product-card/product-card.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
@@ -30,3 +31,4 @@ export class ProductCardComponent {
     return null;
   }
 }
+

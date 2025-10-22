@@ -1,3 +1,4 @@
+// Funcional: src/app/auth/services/auth.service.ts — descripción breve de la responsabilidad principal del archivo.
 import { Injectable, PLATFORM_ID, inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -80,3 +81,4 @@ export class AuthService {
     if (token) this.saveToken(token);
   }
 }
+

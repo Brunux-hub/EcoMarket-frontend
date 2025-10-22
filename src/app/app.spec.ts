@@ -1,3 +1,4 @@
+// Funcional: src/app/app.spec.ts — descripción breve de la responsabilidad principal del archivo.
 import { provideZonelessChangeDetection } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { App } from './app';
@@ -23,3 +24,4 @@ describe('App', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, frontend');
   });
 });
+

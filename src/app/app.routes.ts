@@ -1,3 +1,4 @@
+// Funcional: src/app/app.routes.ts — descripción breve de la responsabilidad principal del archivo.
 import { Routes } from '@angular/router';
 import { AuthGuard } from './auth/guards/auth.guard';
 import { RoleGuard } from './auth/guards/role.guard';
@@ -21,3 +22,4 @@ export const routes: Routes = [
 	},
 	{ path: '**', redirectTo: '' },
 ];
+

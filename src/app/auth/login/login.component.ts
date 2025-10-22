@@ -1,3 +1,4 @@
+// Funcional: src/app/auth/login/login.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -34,3 +35,4 @@ export class LoginComponent {
     });
   }
 }
+

@@ -1,3 +1,4 @@
+// Funcional: src/app/auth/guards/auth.guard.ts — descripción breve de la responsabilidad principal del archivo.
 import { Injectable } from '@angular/core';
 import { CanActivate, Router, UrlTree } from '@angular/router';
 import { AuthService } from '../services/auth.service';
@@ -16,3 +17,4 @@ export class AuthGuard implements CanActivate {
     return true;
   }
 }
+

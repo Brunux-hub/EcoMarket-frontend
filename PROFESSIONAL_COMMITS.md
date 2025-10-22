@@ -608,3 +608,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Este archivo controla la configuración/propósito de README_EXPORT.md en el proyecto. Descripción breve en español.
 - Impacto: Afecta al build/linters/ejecución según corresponda.
 
+
+### Archivo: angular.json
+
+- Funcionalidad: Este archivo controla la configuración/propósito de angular.json en el proyecto. Descripción breve en español.
+- Impacto: Afecta al build/linters/ejecución según corresponda.
+

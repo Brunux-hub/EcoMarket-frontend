@@ -632,3 +632,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Este archivo controla la configuración/propósito de tsconfig.spec.json en el proyecto. Descripción breve en español.
 - Impacto: Afecta al build/linters/ejecución según corresponda.
 
+
+### Archivo: package.json
+
+- Funcionalidad: Este archivo controla la configuración/propósito de package.json en el proyecto. Descripción breve en español.
+- Impacto: Afecta al build/linters/ejecución según corresponda.
+

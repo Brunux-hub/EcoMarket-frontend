@@ -1,71 +1,73 @@
-# PROFESSIONAL COMMITS ‚Äî EcoMarket-frontend
+Ôªø# HISTORIAL DE COMMITS (traducci√≥n al espa√±ol)
 
-Este documento agrupa mensajes de commit profesionales destinados a describir de forma clara y consistente los cambios y su motivo. Se cre√≥ autom√°ticamente para profesionalizar el historial del repositorio sin reescribir commits existentes.
+# PROFESSIONAL COMMITS √¢‚Ç¨‚Äù EcoMarket-frontend
+
+Este documento agrupa mensajes de commit profesionales destinados a describir de forma clara y consistente los cambios y su motivo. Se cre√É¬≥ autom√É¬°ticamente para profesionalizar el historial del repositorio sin reescribir commits existentes.
 
 Formato usado
-- Encabezado: <tipo>(<scope>): <breve descripci√≥n>
-- Cuerpo: explicaci√≥n breve de qu√© se hizo, por qu√© y el impacto.
+- Encabezado: <tipo>(<scope>): <breve descripci√É¬≥n>
+- Cuerpo: explicaci√É¬≥n breve de qu√É¬© se hizo, por qu√É¬© y el impacto.
 
 Tipos usados:
 - feat: nueva funcionalidad
-- fix: correcci√≥n de errores
+- fix: correcci√É¬≥n de errores
 - chore: cambios menores/no funcionales (docs, build, tareas)
-- refactor: reestructuraci√≥n interna sin cambio funcional
-- test: a√±adir/actualizar pruebas
-- docs: documentaci√≥n
+- refactor: reestructuraci√É¬≥n interna sin cambio funcional
+- test: a√É¬±adir/actualizar pruebas
+- docs: documentaci√É¬≥n
 
-Entradas sugeridas (resumen por √°reas importantes)
+Entradas sugeridas (resumen por √É¬°reas importantes)
 
-1) feat(app): iniciar estructura base de la aplicaci√≥n Angular
+1) feat(app): iniciar estructura base de la aplicaci√É¬≥n Angular
 
-Qu√©: Estructura inicial del proyecto Angular con componentes principales y rutas.
-Por qu√©: Establece la base para el desarrollo de la interfaz del marketplace.
-Impacto: Proporciona componentes como `home`, `seller`, `admin`, y configuraci√≥n de rutas y entornos.
+Qu√É¬©: Estructura inicial del proyecto Angular con componentes principales y rutas.
+Por qu√É¬©: Establece la base para el desarrollo de la interfaz del marketplace.
+Impacto: Proporciona componentes como `home`, `seller`, `admin`, y configuraci√É¬≥n de rutas y entornos.
 
-2) feat(auth): a√±adir m√≥dulos y componentes de autenticaci√≥n
+2) feat(auth): a√É¬±adir m√É¬≥dulos y componentes de autenticaci√É¬≥n
 
-Qu√©: Componentes y servicios para login y registro ubicados en `src/app/auth`.
-Por qu√©: Implementa la l√≥gica de autenticaci√≥n necesaria para controlar acceso y roles.
-Impacto: Incluye guardias (`auth.guard`, `role.guard`) e interceptores para tokens de autenticaci√≥n.
+Qu√É¬©: Componentes y servicios para login y registro ubicados en `src/app/auth`.
+Por qu√É¬©: Implementa la l√É¬≥gica de autenticaci√É¬≥n necesaria para controlar acceso y roles.
+Impacto: Incluye guardias (`auth.guard`, `role.guard`) e interceptores para tokens de autenticaci√É¬≥n.
 
 3) feat(ui): componentes UI reutilizables y layout
 
-Qu√©: Componentes de UI (header, footer, menu, product-card, filter-sidebar).
-Por qu√©: Facilitar la creaci√≥n de interfaces consistentes y reutilizables.
-Impacto: Mejora consistencia visual y facilita a√±adir nuevas vistas.
+Qu√É¬©: Componentes de UI (header, footer, menu, product-card, filter-sidebar).
+Por qu√É¬©: Facilitar la creaci√É¬≥n de interfaces consistentes y reutilizables.
+Impacto: Mejora consistencia visual y facilita a√É¬±adir nuevas vistas.
 
-4) chore(config): a√±adir configuraciones y scripts de build/server
+4) chore(config): a√É¬±adir configuraciones y scripts de build/server
 
-Qu√©: Archivos de configuraci√≥n como `angular.json`, `tsconfig.*`, `Dockerfile.dev`, y `main.server.ts`.
-Por qu√©: Facilitar builds, server-side rendering y despliegues en docker durante desarrollo.
-Impacto: Entorno preparado para SSR y contenerizaci√≥n.
+Qu√É¬©: Archivos de configuraci√É¬≥n como `angular.json`, `tsconfig.*`, `Dockerfile.dev`, y `main.server.ts`.
+Por qu√É¬©: Facilitar builds, server-side rendering y despliegues en docker durante desarrollo.
+Impacto: Entorno preparado para SSR y contenerizaci√É¬≥n.
 
-5) docs(readme): a√±adir documentaci√≥n b√°sica y gu√≠as de uso
+5) docs(readme): a√É¬±adir documentaci√É¬≥n b√É¬°sica y gu√É¬≠as de uso
 
-Qu√©: `README.md`, `README_EXPORT.md` y documentaci√≥n m√≠nima de configuraci√≥n.
-Por qu√©: Orientar a nuevos desarrolladores sobre c√≥mo instalar y ejecutar la aplicaci√≥n.
-Impacto: Reduce la fricci√≥n de onboarding.
+Qu√É¬©: `README.md`, `README_EXPORT.md` y documentaci√É¬≥n m√É¬≠nima de configuraci√É¬≥n.
+Por qu√É¬©: Orientar a nuevos desarrolladores sobre c√É¬≥mo instalar y ejecutar la aplicaci√É¬≥n.
+Impacto: Reduce la fricci√É¬≥n de onboarding.
 
 6) chore(ci): rama para profesionalizar commits
 
-Qu√©: A√±ade este archivo `PROFESSIONAL_COMMITS.md` en la rama `professional-commits` con mensajes profesionales. No se reescribe el historial.
-Por qu√©: Mantener claridad en el historial sin alterar commits existentes.
-Impacto: Permite revisar y luego decidir si se quiere reescribir el historial o mantener esta documentaci√≥n.
+Qu√É¬©: A√É¬±ade este archivo `PROFESSIONAL_COMMITS.md` en la rama `professional-commits` con mensajes profesionales. No se reescribe el historial.
+Por qu√É¬©: Mantener claridad en el historial sin alterar commits existentes.
+Impacto: Permite revisar y luego decidir si se quiere reescribir el historial o mantener esta documentaci√É¬≥n.
 
 Notas de uso
-- Revisa manualmente las entradas y compl√©talas con detalles por cada commit importante.
-- Si deseas reescribir mensajes hist√≥ricos, cont√°ctame para generar un plan (requiere force-push y respaldo).
+- Revisa manualmente las entradas y compl√É¬©talas con detalles por cada commit importante.
+- Si deseas reescribir mensajes hist√É¬≥ricos, cont√É¬°ctame para generar un plan (requiere force-push y respaldo).
 
 ---
 
-Archivo generado autom√°ticamente el 22 de octubre de 2025 por petici√≥n del propietario del repositorio.
+Archivo generado autom√É¬°ticamente el 22 de octubre de 2025 por petici√É¬≥n del propietario del repositorio.
 
 ### File: .editorconfig
 
 Documento profesionalizado para el archivo: .editorconfig
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -73,8 +75,8 @@ Documento profesionalizado para el archivo: .editorconfig
 
 Documento profesionalizado para el archivo: .gitignore
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -82,8 +84,8 @@ Documento profesionalizado para el archivo: .gitignore
 
 Documento profesionalizado para el archivo: Dockerfile.dev
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -91,8 +93,8 @@ Documento profesionalizado para el archivo: Dockerfile.dev
 
 Documento profesionalizado para el archivo: README.md
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -100,8 +102,8 @@ Documento profesionalizado para el archivo: README.md
 
 Documento profesionalizado para el archivo: README_EXPORT.md
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -109,8 +111,8 @@ Documento profesionalizado para el archivo: README_EXPORT.md
 
 Documento profesionalizado para el archivo: angular.json
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -118,8 +120,8 @@ Documento profesionalizado para el archivo: angular.json
 
 Documento profesionalizado para el archivo: package.json
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -127,8 +129,8 @@ Documento profesionalizado para el archivo: package.json
 
 Documento profesionalizado para el archivo: postcss.config.js
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -136,8 +138,8 @@ Documento profesionalizado para el archivo: postcss.config.js
 
 Documento profesionalizado para el archivo: public/favicon.ico
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -145,8 +147,8 @@ Documento profesionalizado para el archivo: public/favicon.ico
 
 Documento profesionalizado para el archivo: src/app/admin.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -154,8 +156,8 @@ Documento profesionalizado para el archivo: src/app/admin.component.ts
 
 Documento profesionalizado para el archivo: src/app/app.config.server.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -163,8 +165,8 @@ Documento profesionalizado para el archivo: src/app/app.config.server.ts
 
 Documento profesionalizado para el archivo: src/app/app.config.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -172,8 +174,8 @@ Documento profesionalizado para el archivo: src/app/app.config.ts
 
 Documento profesionalizado para el archivo: src/app/app.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -181,8 +183,8 @@ Documento profesionalizado para el archivo: src/app/app.html
 
 Documento profesionalizado para el archivo: src/app/app.routes.server.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -190,8 +192,8 @@ Documento profesionalizado para el archivo: src/app/app.routes.server.ts
 
 Documento profesionalizado para el archivo: src/app/app.routes.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -199,8 +201,8 @@ Documento profesionalizado para el archivo: src/app/app.routes.ts
 
 Documento profesionalizado para el archivo: src/app/app.scss
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -208,8 +210,8 @@ Documento profesionalizado para el archivo: src/app/app.scss
 
 Documento profesionalizado para el archivo: src/app/app.spec.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -217,8 +219,8 @@ Documento profesionalizado para el archivo: src/app/app.spec.ts
 
 Documento profesionalizado para el archivo: src/app/app.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -226,8 +228,8 @@ Documento profesionalizado para el archivo: src/app/app.ts
 
 Documento profesionalizado para el archivo: src/app/auth/guards/auth.guard.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -235,8 +237,8 @@ Documento profesionalizado para el archivo: src/app/auth/guards/auth.guard.ts
 
 Documento profesionalizado para el archivo: src/app/auth/guards/role.guard.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -244,8 +246,8 @@ Documento profesionalizado para el archivo: src/app/auth/guards/role.guard.ts
 
 Documento profesionalizado para el archivo: src/app/auth/login/login.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -253,8 +255,8 @@ Documento profesionalizado para el archivo: src/app/auth/login/login.component.t
 
 Documento profesionalizado para el archivo: src/app/auth/pages/login/login.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -262,8 +264,8 @@ Documento profesionalizado para el archivo: src/app/auth/pages/login/login.compo
 
 Documento profesionalizado para el archivo: src/app/auth/pages/login/login.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -271,8 +273,8 @@ Documento profesionalizado para el archivo: src/app/auth/pages/login/login.compo
 
 Documento profesionalizado para el archivo: src/app/auth/pages/register/register.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -280,8 +282,8 @@ Documento profesionalizado para el archivo: src/app/auth/pages/register/register
 
 Documento profesionalizado para el archivo: src/app/auth/pages/register/register.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -289,8 +291,8 @@ Documento profesionalizado para el archivo: src/app/auth/pages/register/register
 
 Documento profesionalizado para el archivo: src/app/auth/register/register.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -298,8 +300,8 @@ Documento profesionalizado para el archivo: src/app/auth/register/register.compo
 
 Documento profesionalizado para el archivo: src/app/auth/services/auth.service.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -307,8 +309,8 @@ Documento profesionalizado para el archivo: src/app/auth/services/auth.service.t
 
 Documento profesionalizado para el archivo: src/app/guards/auth.guard.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -316,8 +318,8 @@ Documento profesionalizado para el archivo: src/app/guards/auth.guard.ts
 
 Documento profesionalizado para el archivo: src/app/home.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -325,8 +327,8 @@ Documento profesionalizado para el archivo: src/app/home.component.ts
 
 Documento profesionalizado para el archivo: src/app/interceptors/auth.interceptor.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -334,8 +336,8 @@ Documento profesionalizado para el archivo: src/app/interceptors/auth.intercepto
 
 Documento profesionalizado para el archivo: src/app/seller.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -343,8 +345,8 @@ Documento profesionalizado para el archivo: src/app/seller.component.ts
 
 Documento profesionalizado para el archivo: src/app/services/auth.service.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -352,8 +354,8 @@ Documento profesionalizado para el archivo: src/app/services/auth.service.ts
 
 Documento profesionalizado para el archivo: src/app/shared/components/menu/menu.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -361,8 +363,8 @@ Documento profesionalizado para el archivo: src/app/shared/components/menu/menu.
 
 Documento profesionalizado para el archivo: src/app/shared/components/menu/menu.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -370,8 +372,8 @@ Documento profesionalizado para el archivo: src/app/shared/components/menu/menu.
 
 Documento profesionalizado para el archivo: src/app/shared/ui/filter-sidebar/filter-sidebar.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -379,8 +381,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/filter-sidebar/fil
 
 Documento profesionalizado para el archivo: src/app/shared/ui/filter-sidebar/filter-sidebar.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -388,8 +390,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/filter-sidebar/fil
 
 Documento profesionalizado para el archivo: src/app/shared/ui/footer/footer.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -397,8 +399,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/footer/footer.comp
 
 Documento profesionalizado para el archivo: src/app/shared/ui/footer/footer.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -406,8 +408,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/footer/footer.comp
 
 Documento profesionalizado para el archivo: src/app/shared/ui/header/header.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -415,8 +417,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/header/header.comp
 
 Documento profesionalizado para el archivo: src/app/shared/ui/header/header.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -424,8 +426,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/header/header.comp
 
 Documento profesionalizado para el archivo: src/app/shared/ui/product-card/product-card.component.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -433,8 +435,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/product-card/produ
 
 Documento profesionalizado para el archivo: src/app/shared/ui/product-card/product-card.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -442,8 +444,8 @@ Documento profesionalizado para el archivo: src/app/shared/ui/product-card/produ
 
 Documento profesionalizado para el archivo: src/app/unauthorized.component.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -451,8 +453,8 @@ Documento profesionalizado para el archivo: src/app/unauthorized.component.ts
 
 Documento profesionalizado para el archivo: src/environments/environment.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -460,8 +462,8 @@ Documento profesionalizado para el archivo: src/environments/environment.ts
 
 Documento profesionalizado para el archivo: src/index.html
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -469,8 +471,8 @@ Documento profesionalizado para el archivo: src/index.html
 
 Documento profesionalizado para el archivo: src/main.server.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -478,8 +480,8 @@ Documento profesionalizado para el archivo: src/main.server.ts
 
 Documento profesionalizado para el archivo: src/main.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -487,8 +489,8 @@ Documento profesionalizado para el archivo: src/main.ts
 
 Documento profesionalizado para el archivo: src/server.ts
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -496,8 +498,8 @@ Documento profesionalizado para el archivo: src/server.ts
 
 Documento profesionalizado para el archivo: src/styles.css
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -505,8 +507,8 @@ Documento profesionalizado para el archivo: src/styles.css
 
 Documento profesionalizado para el archivo: src/styles.scss
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -514,8 +516,8 @@ Documento profesionalizado para el archivo: src/styles.scss
 
 Documento profesionalizado para el archivo: tsconfig.app.json
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -523,8 +525,8 @@ Documento profesionalizado para el archivo: tsconfig.app.json
 
 Documento profesionalizado para el archivo: tsconfig.json
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
@@ -532,121 +534,122 @@ Documento profesionalizado para el archivo: tsconfig.json
 
 Documento profesionalizado para el archivo: tsconfig.spec.json
 
-- Resumen: AÒade contexto y propÛsito del archivo.
-- Impacto: Describe el impacto en la aplicaciÛn.
+- Resumen: A√±ade contexto y prop√≥sito del archivo.
+- Impacto: Describe el impacto en la aplicaci√≥n.
 
 
 
 ### File: .editorconfig
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de .editorconfig.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de .editorconfig.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: .gitignore
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de .gitignore.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de .gitignore.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: README.md
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de README.md.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de README.md.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: README_EXPORT.md
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de README_EXPORT.md.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de README_EXPORT.md.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: angular.json
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de angular.json.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de angular.json.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: tsconfig.app.json
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de tsconfig.app.json.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de tsconfig.app.json.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: tsconfig.json
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de tsconfig.json.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de tsconfig.json.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### File: tsconfig.spec.json
 
-- Funcionalidad: DescripciÛn detallada del propÛsito y uso de tsconfig.spec.json.
-- Impacto: Indica cÛmo afecta al build, lint o al comportamiento de la app.
+- Funcionalidad: Descripci√≥n detallada del prop√≥sito y uso de tsconfig.spec.json.
+- Impacto: Indica c√≥mo afecta al build, lint o al comportamiento de la app.
 
 
 ### Archivo: .editorconfig
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de .editorconfig en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de .editorconfig en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: .gitignore
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de .gitignore en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de .gitignore en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: README.md
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de README.md en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de README.md en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: README_EXPORT.md
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de README_EXPORT.md en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de README_EXPORT.md en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: angular.json
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de angular.json en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de angular.json en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: tsconfig.app.json
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de tsconfig.app.json en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de tsconfig.app.json en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: tsconfig.json
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de tsconfig.json en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de tsconfig.json en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: tsconfig.spec.json
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de tsconfig.spec.json en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de tsconfig.spec.json en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: package.json
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de package.json en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de package.json en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: postcss.config.js
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de postcss.config.js en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de postcss.config.js en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
 
 
 ### Archivo: Dockerfile.dev
 
-- Funcionalidad: Este archivo controla la configuraciÛn/propÛsito de Dockerfile.dev en el proyecto. DescripciÛn breve en espaÒol.
-- Impacto: Afecta al build/linters/ejecuciÛn seg˙n corresponda.
+- Funcionalidad: Este archivo controla la configuraci√≥n/prop√≥sito de Dockerfile.dev en el proyecto. Descripci√≥n breve en espa√±ol.
+- Impacto: Afecta al build/linters/ejecuci√≥n seg√∫n corresponda.
+
 

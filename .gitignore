@@ -1,4 +1,5 @@
-# Funcional: Configuraci�n de .gitignore  reglas y prop�sito.
+﻿# Traducción: reglas de ignore comunes
+# Funcional: Configuración de .gitignore  reglas y propósito.
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
@@ -42,4 +43,5 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
 

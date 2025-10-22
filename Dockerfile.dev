@@ -1,3 +1,4 @@
+﻿# Traducción: Dockerfile de desarrollo (comentario en español)
 # Dockerfile para desarrollo del frontend
 FROM node:18-alpine
 
@@ -13,7 +14,7 @@ COPY pnpm-lock.yaml ./
 # Instalar dependencias
 RUN pnpm install
 
-# Copiar código fuente
+# Copiar cÃ³digo fuente
 COPY . .
 
 # Exponer puerto
@@ -21,4 +22,5 @@ EXPOSE 4200
 
 # Comando de desarrollo
 CMD ["pnpm", "start", "--host", "0.0.0.0"]
+
 

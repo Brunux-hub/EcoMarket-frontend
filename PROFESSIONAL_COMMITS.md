@@ -566,3 +566,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Descripción detallada del propósito y uso de angular.json.
 - Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
 
+
+### File: tsconfig.app.json
+
+- Funcionalidad: Descripción detallada del propósito y uso de tsconfig.app.json.
+- Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
+

@@ -584,3 +584,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Descripción detallada del propósito y uso de tsconfig.spec.json.
 - Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
 
+
+### Archivo: .editorconfig
+
+- Funcionalidad: Este archivo controla la configuración/propósito de .editorconfig en el proyecto. Descripción breve en español.
+- Impacto: Afecta al build/linters/ejecución según corresponda.
+

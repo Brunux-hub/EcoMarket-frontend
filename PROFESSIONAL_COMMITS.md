@@ -578,3 +578,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Descripción detallada del propósito y uso de tsconfig.json.
 - Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
 
+
+### File: tsconfig.spec.json
+
+- Funcionalidad: Descripción detallada del propósito y uso de tsconfig.spec.json.
+- Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
+

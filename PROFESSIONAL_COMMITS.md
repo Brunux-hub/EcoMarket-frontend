@@ -644,3 +644,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Este archivo controla la configuración/propósito de postcss.config.js en el proyecto. Descripción breve en español.
 - Impacto: Afecta al build/linters/ejecución según corresponda.
 
+
+### Archivo: Dockerfile.dev
+
+- Funcionalidad: Este archivo controla la configuración/propósito de Dockerfile.dev en el proyecto. Descripción breve en español.
+- Impacto: Afecta al build/linters/ejecución según corresponda.
+

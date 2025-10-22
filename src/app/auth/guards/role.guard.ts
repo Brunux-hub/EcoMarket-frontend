@@ -1,3 +1,4 @@
+// Funcional: src/app/auth/guards/role.guard.ts — descripción breve de la responsabilidad principal del archivo.
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, Router, UrlTree } from '@angular/router';
 import { AuthService } from '../services/auth.service';
@@ -18,3 +19,4 @@ export class RoleGuard implements CanActivate {
     return true;
   }
 }
+

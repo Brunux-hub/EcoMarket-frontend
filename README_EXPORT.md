@@ -1,3 +1,4 @@
+<!-- Funcional: Descripci�n breve: este archivo contiene README_EXPORT.md y sirve para... -->
 # EcoMarket Frontend — Exportado
 
 Este directorio contiene la app frontend extraída de `apps/frontend` del monorepo EcoMarket.
@@ -29,3 +30,4 @@ Notas
 
 ---
 Exportado desde: EcoMarket (`apps/frontend`) — 2025-10-22
+

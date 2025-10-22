@@ -1,3 +1,4 @@
+// Funcional: src/app/shared/components/menu/menu.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { AuthService } from '../../../auth/services/auth.service';
@@ -30,3 +31,4 @@ export class MenuComponent implements OnInit {
     el.classList.toggle('dark');
   }
 }
+

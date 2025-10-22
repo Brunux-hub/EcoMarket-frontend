@@ -1,3 +1,4 @@
+// Funcional: src/app/shared/ui/header/header.component.ts — descripción breve de la responsabilidad principal del archivo.
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
@@ -21,3 +22,4 @@ export class HeaderComponent {
     this.showSearch = false;
   }
 }
+

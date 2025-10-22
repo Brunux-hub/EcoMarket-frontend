@@ -542,3 +542,9 @@ Documento profesionalizado para el archivo: tsconfig.spec.json
 - Funcionalidad: Descripción detallada del propósito y uso de .editorconfig.
 - Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
 
+
+### File: .gitignore
+
+- Funcionalidad: Descripción detallada del propósito y uso de .gitignore.
+- Impacto: Indica cómo afecta al build, lint o al comportamiento de la app.
+

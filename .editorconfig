@@ -1,3 +1,4 @@
+# Funcional: Configuración de .editorconfig  reglas y propósito.
 # Editor configuration, see https://editorconfig.org
 root = true
 
@@ -15,3 +16,4 @@ ij_typescript_use_double_quotes = false
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+
